@@ -1,0 +1,27 @@
+{
+  "globals": {
+    "mysql_exe_path": "C:\\Program Files\\MySQL\\MySQL Workbench 8.0 CE\\mysql.exe",
+    "max_parallel_workers": 10,
+    "default_query_timeout_sec": "not_implemented_yet"
+  },
+  "servers": [
+    {
+      "name": "mariadb_test_1",
+      "host": "127.0.0.1",
+      "port": 33061,
+      "user": "root",
+      "password": "root",
+      "database": "testdb1",
+      "enabled_by_default": true
+    },
+    {
+      "name": "mariadb_test_2",
+      "host": "127.0.0.1",
+      "port": 33062,
+      "user": "root",
+      "password": "root",
+      "database": "testdb2",
+      "enabled_by_default": true
+    }
+  ]
+}
